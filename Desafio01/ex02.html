@@ -7,14 +7,17 @@
 
     <body>
         <script>
-            
-            //Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+
+            //Exercício 2 - Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
 
             function pares (x, y) {
-
+                for (var i = x; y <= i; i++) {
+                if (i % 2 == 0){
+                    console.log(i);
+                    }
+                }
             }
-
-
+            pares(32, 321);
 
         </script>
     </body>
