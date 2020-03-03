@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Curso Javascript - Introdução Javascript</title>
+    </head>
+
+    <body>
+                   
+<!--Escreva uma função que dado o total de anos de estudo retorna o quão experiente um usuário é -->
+
+        <script>
+
+            function experiencia(anos) {
+                if (anos <= 1){
+                    return "Iniciante";
+                }
+                else if (anos <= 3){
+                    return "Intermediário";
+                }
+                else if (anos <= 6){
+                    return "Avançado";
+                }
+                else {
+                    return "Jedi";
+                }
+            }
+
+            var anosEstudo = 7;
+            console.log (experiencia(anosEstudo));
+
+        </script>
+    </body>
+
+</html>
